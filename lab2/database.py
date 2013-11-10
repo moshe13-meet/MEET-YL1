@@ -1,0 +1,11 @@
+x={}
+for z in range(0,3):
+
+	name = raw_input("insert name ")
+
+	age = raw_input("insert age ")
+
+	year = raw_input("insert year ")
+
+	x[name] = [age, year]
+print x
